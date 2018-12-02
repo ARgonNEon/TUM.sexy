@@ -24,7 +24,7 @@ class Route {
         ],
         'c'            => [
             'description' => 'TUM Online',
-            'target'      => 'https://campus.tum.de/',
+            'target'      => 'https://campus.tum.de/tumonline/anmeldung.durchfuehren',
         ],
         'm'            => [
             'description' => 'Moodle',
@@ -48,7 +48,8 @@ class Route {
         ],
         'numprog'      => [
             'description' => 'Numerisches Programmieren',
-            'target'      => 'https://www5.in.tum.de/wiki/index.php/Numerisches_Programmieren_-_Summer_18',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?id=41992',
+            'moodle_id'   => '41992',
         ],
         'websec'       => [
             'description' => 'WebApplication Security Bachelor Praktikum',
@@ -60,13 +61,13 @@ class Route {
         ],
         'anal'         => [
             'description' => 'Analysis für Informatiker',
-            'target'      => 'https://www-m5.ma.tum.de/Allgemeines/MA0902_2017W',
-            'moodle_id'   => '36704',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?id=43628',
+            'moodle_id'   => '43628',
         ],
         'info2'        => [
-            'description' => 'Einführung in die Informatik 2',
-            'target'      => 'https://www2.in.tum.de/hp/Main?nid=354',
-            'moodle_id'   => '35319',
+            'description' => 'Einführung in die Informatik 2 / Functional Programming and Verification',
+            'target'      => 'https://www.in.tum.de/i02/lehre/wintersemester-1819/vorlesungen/functional-programming-and-verification/',
+            'moodle_id'   => '44932',
         ],
         'e2ocaml'      => [
             'description' => 'Einführung in die Informatik 2 OCAML HA-Abgabe',
@@ -74,13 +75,13 @@ class Route {
         ],
         'db'           => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://db.in.tum.de/teaching/ws1718/grundlagen/',
+            'target'      => 'https://db.in.tum.de/teaching/ws1819/grundlagen/',
             'moodle_id'   => '38031',
         ],
         'gbs'          => [
             'description' => 'Grundlagen Betriebssystem und Systemsoftware',
-            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2017/grundlagen-betriebssysteme-und-systemsoftware',
-            'moodle_id'   => '35140',
+            'target'      => 'https://www.cm.in.tum.de/teaching/gbs-1819/',
+            'moodle_id'   => '42019',
         ],
         'quintero'     => [
             'description' => 'Mathias Quintero',
@@ -112,15 +113,16 @@ class Route {
         ],
         'info1'        => [
             'description' => 'Einführung in die Informatik 1',
-            'target'      => 'http://www14.in.tum.de/lehre/2017WS/info1/index.html.de',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?id=42050',
         ],
         'pgdp'         => [
             'description' => 'Praktikum Grundlagen der Programmierung (Moodle-Kurs)',
-            'target'      => 'https://www.moodle.tum.de/course/view.php?id=35284',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?id=42050',
         ],
         'era'          => [
             'description' => 'Einführung in die Rechnerarchitektur',
-            'target'      => 'https://www.lrr.in.tum.de/lehre/wintersemester-1718/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
+            'target'      => 'http://www.caps.in.tum.de/lehre/ws18/vorlesungen/era/',
+            'moodle_id'   => '45072',
         ],
         'scivis'       => [
             'description' => 'Scientific Visualization',
@@ -128,15 +130,15 @@ class Route {
         ],
         'ds'           => [
             'description' => 'Diskrete Strukturen',
-            'target'      => 'https://www7.in.tum.de/um/courses/ds/ws1718/index.html',
+            'target'      => 'https://www7.in.tum.de/um/courses/ds/ws1819/index.html',
         ],
         'vorkurs'      => [
             'description' => 'Mathematik Vorkurs für Informatiker',
-            'target'      => 'https://www.ma.tum.de/Vorkurse/Info/WebHome',
+            'target'      => 'https://vorkurse.ma.tum.de/Vorkurse/Info/WebHome',
         ],
         'csc'          => [
             'description' => 'Computational Social Choice',
-            'target'      => 'http://dss.in.tum.de/33-teaching/semester/wintersemester-2016-17/153-computational-social-choice-ws-2016-17.html',
+            'target'      => 'http://dss.in.tum.de/teaching/ws-18-19/37-teaching/semester/wintersemster-2018-19/193-computational-social-choice-2018-19.html',
         ],
         'eval'         => [
             'description' => 'Evaluation of Lectures',
@@ -154,13 +156,21 @@ class Route {
             'description' => 'Studienplan M.Sc. Informatik',
             'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/informatik/studienplan/fpo-2007-und-fpsos-seit-2012.html',
         ],
+        'ge-sp'        => [
+            'description' => 'Studienplan B.Sc. Informatik: Games Engineering',
+            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/informatik-games-engineering/studienplan-games/studienbeginn-ab-ws-201617-games/',
+        ],
+        'ge-ma-sp'     => [
+            'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
+            'target'      => 'https://www.in.tum.de/de/fuer-studierende/master-studiengaenge/informatik-games-engineering/curriculum/',
+        ],
         'wi-sp'        => [
             'description' => 'Studienplan B.Sc. Wirtschaftsinformatik',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/wirtschaftsinformatik/studienplan/studienbeginn-ab-ws-20162017.html',
+            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/wirtschaftsinformatik/studienplan/studienbeginn-ab-ws-20182019/',
         ],
         'wi-ma-sp'     => [
             'description' => 'Studienplan M.Sc. Wirtschaftsinformatik',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik/studienplan/ab-ss-2014.html',
+            'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik/studienplan/ab-sose-2018/',
         ],
         'app'          => [
             'description' => 'TUM Campus App',
@@ -198,7 +208,7 @@ class Route {
         ],
         'erapraktikum' => [
             'description' => 'Praktikum - Einführung in die Rechnerarchitektur',
-            'target'      => 'https://www.lrr.in.tum.de/lehre/sommersemester-18/praktika/praktikum-rechnerarchitektur/',
+            'target'      => 'https://www.caps.in.tum.de/lehre/ws18/praktika/praktikum-rechnerarchitektur/',
         ],
         'ged'          => [
             'description' => 'Game Engine Design',
@@ -214,11 +224,12 @@ class Route {
         ],
         'gki'          => [
             'description' => 'Grundlagen der Künstlichen Intelligenz',
-            'target'      => 'http://www.i6.in.tum.de/Main/TeachingWs2017KuenstlicheIntelligenz',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?id=41898',
+            'moodle_id'   => '41898',
         ],
         'pl'           => [
             'description' => 'Programming Languages',
-            'target'      => 'https://www2.in.tum.de/hp/Main?nid=362',
+            'target'      => 'https://www.in.tum.de/i02/lehre/wintersemester-1819/vorlesungen/programming-languages/',
         ],
         'ase'          => [
             'description' => 'Advanced Topics In Software Engineering',
@@ -227,10 +238,6 @@ class Route {
         'qo'           => [
             'description' => 'Query Optimization',
             'target'      => 'https://db.in.tum.de/teaching/ws1718/queryopt/',
-        ],
-        'geo'          => [
-            'description' => 'Geometriekalküle',
-            'target'      => 'https://www-m10.ma.tum.de/bin/view/Lehre/WS1718/GeometrieKalkueleWS1718',
         ],
         'satellite'    => [
             'description' => 'The TUM Satellite',
@@ -275,7 +282,106 @@ class Route {
         ],
         'slam'         => [
             'description' => 'TUM Hörsaal Slam',
-            'target'      => 'https://www.facebook.com/events/112801979587860/',
+            'target'      => 'https://www.facebook.com/events/1892789647682641/',
+        ],
+        'sbrml'        => [
+            'description' => 'Sensorbased Robotic Manipulation and Locomotion',
+            'target'      => 'http://www23.in.tum.de/index.php?id=6598'
+        ],
+        'rpchi'        => [
+            'description' => 'Robot Programming and Control for Human Interaction',
+            'target'      => 'http://www23.in.tum.de/index.php?id=6680'
+        ],
+        'wahl'         => [
+            'description' => 'Hochschulwahlen',
+            'target'      => 'https://www.asta.tum.de/wahl/'
+        ],
+        'agt'          => [
+            'description' => 'Algorithmic Game Theory',
+            'target'      => 'http://dss.in.tum.de/teaching/36-teaching/semester/sommersemster-2018/183-algorithmic-game-theory-ss2018.html'
+        ],
+        'io'           => [
+            'description' => 'Information Officer',
+            'target'      => 'https://www.asta.tum.de/studentische-vertretung/asta/aemter/information-office-io/',
+        ],
+        'csd'          => [
+            'description' => 'CSD Parade',
+            'target'      => 'https://pride.tum.sexy',
+        ],
+        'pride'        => [
+            'description' => 'TUM Diversity & Queer',
+            'target'      => 'https://www.facebook.com/qrtum/',
+        ],
+        'matching'     => [
+            'description' => 'IN.TUM-Matching-System',
+            'target'      => 'https://matching.in.tum.de/saml2/login/',
+        ],
+        'esn'          => [
+            'description' => 'ESN TUMi München',
+            'target'      => 'https://portal.mytum.de/veranstaltungen/ic/termine-tumi/index_html',
+        ],
+        'adm'          => [
+            'description' => 'Algorithmische Diskrete Mathematik',
+            'target'      => 'https://www-m9.ma.tum.de/WS2018/ADM',
+        ],
+        'crypto'       => [
+            'description' => 'Kryptographie',
+            'target'      => 'https://www7.in.tum.de/um/courses/crypto/ws1819/',
+        ],
+        'markov'       => [
+            'description' => 'Markovketten',
+            'target'      => 'https://www-m5.ma.tum.de/Allgemeines/MA2404_2018W',
+        ],
+        'androidsec'   => [
+            'description' => 'Praktikum: Android Security',
+            'target'      => 'https://www22.in.tum.de/en/teaching/android-security-lab/',
+        ],
+        'itsec'        => [
+            'description' => 'IT-Sicherheit',
+            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2018/it-sicherheit',
+            'moodle_id'   => '42097',
+        ],
+        'geokalkuele'  => [
+            'description' => 'Geometriekalküle',
+            'target'      => 'https://www-m10.ma.tum.de/bin/view/Lehre/WS1819/GeometrieKalkueleWS1819',
+        ],
+        'automata'     => [
+            'description' => 'Automata and Formal Languages',
+            'target'      => 'https://www7.in.tum.de/um/courses/auto/ws1819/',
+        ],
+        'sd'           => [
+            'description' => 'Signaldarstellung',
+            'target'      => 'https://www.mmk.ei.tum.de/lehre/signaldarstellung-ab-ws1415/',
+            'moodle_id'   => '44034',
+        ],
+        'markov'       => [
+            'description' => 'Markovketten',
+            'target'      => 'http://www-m5.ma.tum.de/Allgemeines/MA2404_2018W',
+            'moodle_id'   => '44962',
+        ],
+        'progopt'      => [
+            'description' => 'Program Optimization',
+            'target'      => 'https://www.in.tum.de/i02/lehre/wintersemester-1819/vorlesungen/program-optimization/',
+        ],
+        'advalgs'      => [
+            'description' => 'Advanced Algorithms',
+            'target'      => 'http://www14.in.tum.de/lehre/2018WS/ada/index.html.en',
+        ],
+        'ea'           => [
+            'description' => 'Efficient Algorithms',
+            'target'      => 'http://www14.in.tum.de/lehre/2018WS/ea/index.html.en',
+        ],
+        'algebra1'     => [
+            'description' => 'Algebra 1',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?idnumber=950370507',
+        ],
+        'rts'          => [
+            'description' => 'Echtzeitsysteme / Real Time Systems',
+            'moodle_id'   => '42138',
+        ],
+        'ezp'          => [
+            'description' => 'Von der Erfindung zum Patent',
+            'target'      => 'https://campus.tum.de/tumonline/wbLv.wbShowLVDetail?pStpSpNr=950372125',
         ],
         'sbrml'        => [
             'description' => 'Sensorbased Robotic Manipulation and Locomotion',
@@ -299,6 +405,13 @@ class Route {
         'protein' => 'pp',
         'queer'   => 'diversity',
         'rooms'   => 'room',
+        'match'   => 'matching',
+        'la'      => 'linalg',
+        'geokal'  => 'geokalkuele',
+        'geo'     => 'geokalkuele',
+        'ada'     => 'advalgs',
+        'algebra' => 'algebra1',
+        'ezs'     => 'rts',
     ];
 
     /**
@@ -323,10 +436,10 @@ class Route {
         ],
         '6. Semester' => [],
         'Special'     => [
-            'hunger', 'mensabot', 'mensabot2', 'roombot', 'room', 'app', 'c', 'm', 'sp', 'ma-sp', 'wi-sp', 'wi-ma-sp', 'stuff', 'reddit', 'vorkurs', 'statista', 'shuttle', 'sharelatex',
+            'hunger', 'mensabot', 'mensabot2', 'roombot', 'room', 'app', 'c', 'm', 'sp', 'ma-sp', 'ge-sp', 'ge-ma-sp', 'wi-sp', 'wi-ma-sp', 'stuff', 'reddit', 'vorkurs', 'statista', 'shuttle', 'sharelatex', 'matching',
         ],
         'Electives'   => [
-            'pl', 'gki', 'conpra', 'ged', 'pgm', 'gog', 'artemis', 'csc', 'scivis', 'ase', 'qo', 'netsec', 'modsim', 'pp', 'mvs', 'adlr', 'sbrml', 'rpchi'
+            'pl', 'gki', 'conpra', 'ged', 'pgm', 'gog', 'artemis', 'csc', 'scivis', 'ase', 'qo', 'itsec', 'netsec', 'modsim', 'pp', 'mvs', 'adlr', 'sbrml', 'rpchi', 'agt', 'adm', 'crypto', 'geokalkuele', 'automata', 'sd', 'markov', 'progopt', 'advalgs', 'ea', 'algebra1', 'rts',
         ],
     ];
 
@@ -387,6 +500,8 @@ class Route {
 
     public function getResolvedArrays() {
         $ret = [];
+        
+        sort($this->sections['Electives']);
 
         //Iterate over our sections which can contain any number of routes
         foreach ($this->sections as $section => $subs) {
